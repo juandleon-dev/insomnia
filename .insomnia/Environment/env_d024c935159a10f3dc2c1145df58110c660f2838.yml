@@ -1,0 +1,14 @@
+_id: env_d024c935159a10f3dc2c1145df58110c660f2838
+type: Environment
+parentId: wrk_07046d74c6344e9eaa5b9ec100f61984
+modified: 1651257137703
+created: 1651173074186
+name: Base Environment
+data:
+  clientID: 123
+dataPropertyOrder:
+  "&":
+    - clientID
+color: null
+isPrivate: false
+metaSortKey: 1651173074186

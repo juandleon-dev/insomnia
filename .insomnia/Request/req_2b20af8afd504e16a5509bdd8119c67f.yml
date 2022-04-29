@@ -1,7 +1,7 @@
 _id: req_2b20af8afd504e16a5509bdd8119c67f
 type: Request
 parentId: wrk_07046d74c6344e9eaa5b9ec100f61984
-modified: 1651248909084
+modified: 1651257138223
 created: 1651173074195
 url: http://localhost/api/rfqs
 name: New Request
@@ -14,7 +14,7 @@ body:
       "data": {
         "type": "rfqs",    
         "attributes": { 
-          "firstName": "Ronald",
+          "firstName": "{clientId}",
           "lastName": "aaaaaaaaaaaaaaaaaaaaaaa",
           "email": "rrivera0@live.com",
           "phone": "2-(999)507-4625",
