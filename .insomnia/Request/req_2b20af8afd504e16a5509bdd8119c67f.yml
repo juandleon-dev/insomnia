@@ -1,0 +1,60 @@
+_id: req_2b20af8afd504e16a5509bdd8119c67f
+type: Request
+parentId: wrk_07046d74c6344e9eaa5b9ec100f61984
+modified: 1651248909084
+created: 1651173074195
+url: http://localhost/api/rfqs
+name: New Request
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "data": {
+        "type": "rfqs",    
+        "attributes": { 
+          "firstName": "Ronald",
+          "lastName": "Rivera",
+          "email": "rrivera0@live.com",
+          "phone": "2-(999)507-4625",
+          "company": "Centidel",
+          "role": "senior manager",
+          "note": "Pellentesque at nulla.",
+          "poNumber": "CA9134USD",
+          "shipUntil": "2017-09-02"
+        },
+        "relationships": {
+          "requestProducts": {
+            "data": [
+              {
+                "type": "rfqproducts",
+                "id": "1"
+              },
+              {
+                "type": "rfqproducts",
+                "id": "2"
+              },
+              {
+                "type": "rfqproducts",
+                "id": "2"
+              }
+            ]
+          }
+        }
+      }
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_35d97de7e1be49cba24970aa87bdee1b
+authentication: {}
+metaSortKey: -1651173074195
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
